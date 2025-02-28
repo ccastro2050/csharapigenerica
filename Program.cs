@@ -3,7 +3,7 @@ using System; // Agrega esta línea para usar TimeSpan
 using Microsoft.AspNetCore.Builder; // Importa el espacio de nombres necesario para construir y configurar la aplicación web.
 using Microsoft.Extensions.DependencyInjection; // Importa el espacio de nombres necesario para configurar los servicios de la aplicación.
 using Microsoft.Extensions.Hosting; // Importa el espacio de nombres necesario para trabajar con diferentes entornos (desarrollo, producción, etc.).
-using csharpapi.Services; // Importa los servicios personalizados que se utilizarán en la aplicación.
+using csharpapigenerica.Services; // Importa los servicios personalizados que se utilizarán en la aplicación.
 using Microsoft.OpenApi.Models; // 🔹 Importa el espacio de nombres necesario para habilitar Swagger.
 
 var builder = WebApplication.CreateBuilder(args); // Crea un constructor para configurar la aplicación web ASP.NET Core.
